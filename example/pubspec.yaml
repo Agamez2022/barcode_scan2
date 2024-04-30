@@ -1,0 +1,22 @@
+name: barcode_scan_example
+description: Demonstrates how to use the barcode_scan plugin.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  barcode_scan2:
+    path: ../
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic_mono: ^1.26.0
+
+flutter:
+  uses-material-design: true
